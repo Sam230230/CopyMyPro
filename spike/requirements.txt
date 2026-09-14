@@ -1,0 +1,14 @@
+# Python 3.11 (mediapipe publishes no 3.13+ wheels).
+#   python3.11 -m venv .venv && .venv/bin/pip install -r requirements.txt
+
+# Pinned, not floating: mediapipe 1.x crashes the COCO object detector on macOS
+# ("DrishtiMetalHelper ... Service is unavailable"), and anything below 0.10.30
+# has no vision.PoseLandmark enum, which spike.py indexes joints with.
+mediapipe==0.10.35
+
+# mediapipe 0.10.x pins numpy<2; opencv-python 5.x requires numpy>=2. Pinning
+# opencv to 4.x keeps the two compatible.
+opencv-python<5
+numpy<2
+
+mcp>=2.0.0        # only for spike_mcp.py
