@@ -3,6 +3,14 @@
 An experimental tennis-motion analysis app combining an iOS video/pose interface
 with a Python computer-vision feasibility study. Personal project begun in May 2026.
 
+## Demo video
+
+
+https://github.com/user-attachments/assets/68a0443d-b087-4707-8564-b01d5fff3ba4
+
+
+
+
 ## Explore the project
 
 - **iOS:** open `CopyMyPro/CopyMyPro.xcodeproj` in Xcode. The Swift sources analyze
