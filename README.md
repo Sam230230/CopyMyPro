@@ -6,7 +6,8 @@ with a Python computer-vision feasibility study. Personal project begun in May 2
 ## Demo video
 
 
-https://github.com/user-attachments/assets/68a0443d-b087-4707-8564-b01d5fff3ba4
+<img width="800" height="449" alt="ezgif-4286b9911272c09c" src="https://github.com/user-attachments/assets/f42a4c15-146b-4b2a-a8ef-3d7cc895287e" />
+
 
 
 
